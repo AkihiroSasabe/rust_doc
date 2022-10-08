@@ -1,0 +1,93 @@
+[package]
+name = "rust_doc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+proconio = "0.3.6"
+
+[[bin]]
+name = "s05_2_struct"
+path = "src/s05_2_struct.rs"
+
+[[bin]]
+name = "s05_3_struct"
+path = "src/s05_3_struct.rs"
+
+[[bin]]
+name = "s06_enum"
+path = "src/s06_enum.rs"
+
+[[bin]]
+name = "s06_2_match"
+path = "src/s06_2_match.rs"
+
+[[bin]]
+name = "s06_3_if_let"
+path = "src/s06_3_if_let.rs"
+
+[[bin]]
+name = "s08_1_vector"
+path = "src/s08_1_vector.rs"
+
+[[bin]]
+name = "s08_2_text"
+path = "src/s08_2_text.rs"
+
+[[bin]]
+name = "s08_3_hash_map"
+path = "src/s08_3_hash_map.rs"
+
+[[bin]]
+name = "s09_unrecoverable_errors"
+path = "src/s09_unrecoverable_errors.rs"
+
+[[bin]]
+name = "s09_2_recoverable_errors_result"
+path = "src/s09_2_recoverable_errors_result.rs"
+
+[[bin]]
+name = "s10_generic_data_type"
+path = "src/s10_generic_data_type.rs"
+
+[[bin]]
+name = "s10_2_trait"
+path = "src/s10_2_trait.rs"
+
+[[bin]]
+name = "s20_1_1_tcp_connection_listen"
+path ="src/s20_1_1_tcp_connection_listen.rs"
+
+[[bin]]
+name = "s20_1_2_read_request"
+path ="src/s20_1_2_read_request.rs"
+
+[[bin]]
+name = "s20_1_3_write_response"
+path ="src/s20_1_3_write_response.rs"
+
+[[bin]]
+name = "s20_1_4_write_response_in_html"
+path ="src/s20_1_4_write_response_in_html.rs"
+
+[[bin]]
+name = "s20_1_5_selective_response"
+path ="src/s20_1_5_selective_response.rs"
+
+[[bin]]
+name = "s20_1_6_refactoring"
+path ="src/s20_1_6_refactoring.rs"
+
+[[bin]]
+name = "s20_2_1_heavy_request"
+path = "src/s20_2_1_heavy_request.rs"
+
+[[bin]]
+name = "s20_2_2_new_thread_for_each_stream"
+path = "src/s20_2_2_new_thread_for_each_stream.rs"
+
+[[bin]]
+name = "s20_2_3_finite_thread"
+path = "src/bin/s20_2_3_finite_thread.rs"
